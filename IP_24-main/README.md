@@ -2,6 +2,12 @@
 
 A modern React-based web application for discovering, searching, and purchasing video games, featuring user authentication, order history, and a dynamic shopping cart.
 
+## Note for Viewers
+
+This website is currently not hosted. If you would like a rundown of how the code works and a demo of the working website, navigate to this directory and download the video file. Hope you enjoy!
+
+Directory: Game-Store/IP_24-main/Documents/Mini-Assignments/mini_assignment_2/CamdenHenry_FinalProject.mp4
+
 ---
 
 ## Table of Contents
