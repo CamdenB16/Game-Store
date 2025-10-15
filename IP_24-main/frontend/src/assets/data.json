@@ -1,0 +1,93 @@
+{
+    "storeGames": [
+        {
+            "product_id": "1",
+            "product_name": "Helldivers 2",
+            "description": "HELLDIVERS™ 2 is a 3rd person squad-based shooter that sees the elite forces of the Helldivers battling to win an intergalactic struggle to rid the galaxy of the rising alien threats.",
+            "price": 39.99,
+            "url": "https://image.api.playstation.com/vulcan/ap/rnd/202412/1814/79992bfcd42aaa51cdea9c29c5ed4c9be16edc096433d339.jpg",
+            "purchaseLink": "https://store.steampowered.com/app/553850/HELLDIVERS_2/",
+            "tag": "Shooter"
+        },
+        {
+            "product_id": "2",
+            "product_name": "Minecraft",
+            "description": "Minecraft is a 3D video game where players build, explore, and survive in a virtual world. Players can use blocks to create structures, craft items, and fight enemies.",
+            "price": 29.99,
+            "url": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000000964/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a",
+            "purchaseLink": "https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc?tabs=%7B%22details%22%3A0%7D",
+            "tag": "Sandbox"
+        },
+        {
+            "product_id": "3",
+            "product_name": "Rocket League",
+            "description": "Rocket League is a video game that involves the combination of car racing and soccer. Customize your car, hit the field, and compete in one of the most critically acclaimed sports games of all time!",
+            "price": 0,
+            "url": "https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/eEGS_RocketLeague_PsyonixLLC_S1_2560x1440-2c4734fceda0a1b6df485271f7f7b748",
+            "purchaseLink": "https://store.epicgames.com/en-US/p/rocket-league",
+            "tag": "Sports"
+        },
+        {
+            "product_id": "4",
+            "product_name": "Balder's Gate 3",
+            "description": "Baldur's Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+            "price": 59.99,
+            "url": "https://store-images.s-microsoft.com/image/apps.11593.13550459053619040.9c555c73-a698-4992-b0f3-c5084cf18b5e.82a9ea41-c628-4d02-8a0f-d0304eba31c7",
+            "purchaseLink": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+            "tag": "RPG"
+        },
+        {
+            "product_id": "5",
+            "product_name": "Call of Duty: Black Ops 6",
+            "description": "Call of Duty®: Black Ops 6 is signature Black Ops across a cinematic single-player Campaign, a best-in-class Multiplayer experience and with the epic return of Round-Based Zombies.",
+            "price": 69.99,
+            "url": "https://pubity.com/wp-content/uploads/2024/10/Black-ops-6-1.jpg",
+            "purchaseLink": "https://store.steampowered.com/app/2933620/Call_of_Duty_Black_Ops_6/",
+            "tag": "Shooter"
+        },
+        { 
+            "product_id": "6",
+            "product_name": "Manifold Garden",
+            "description": "Rediscover gravity and explore an Escher-esque world of impossible architecture. Witness infinity in first-person and master its rules to solve physics-defying puzzles. Cultivate a garden to open new paths forward.",
+            "price": 19.99,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Manifold_Garden_poster_art.jpg",
+            "purchaseLink": "https://store.steampowered.com/app/473950/Manifold_Garden/",
+            "tag": "Puzzle"
+        },
+        {
+            "product_id": "7",
+            "product_name": "The Legend of Zelda: Ocarina of Time",
+            "description": "The Legend of Zelda: Ocarina of Time is a 1998 action-adventure game by Nintendo for the Nintendo 64. It was released in Japan and North America in November 1998 and in PAL regions the following month. The game is the first in the Legend of Zelda series with 3D graphics.",
+            "price": 29.99,
+            "url": "https://howlongtobeat.com/games/10035_The_Legend_of_Zelda_Ocarina_of_Time.png",
+            "purchaseLink": "https://www.nintendo.com/en-gb/Games/Nintendo-64/The-Legend-of-Zelda-Ocarina-of-Time-269536.html",
+            "tag": "RPG"
+        },
+        {
+            "product_id": "8",
+            "product_name": "Monument Valley",
+            "description": "Monument Valley is a puzzle and indie game by Ustwo Games. The player leads the princess Ida through mazes of optical illusions and impossible objects while manipulating the world around her to reach various platforms.",
+            "price": 7.99,
+            "url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22l6.jpg",
+            "purchaseLink": "https://store.steampowered.com/app/1927720/Monument_Valley_Panoramic_Edition/",
+            "tag": "Puzzle"
+        }
+    ],
+
+    "team": [
+        {
+            "name": "Camden Beightler",
+            "role": "Frontend Developer",
+            "email": "cmbeight@iastate.edu",
+            "date": "5/13/2025",
+            "url": "https://assets.entrepreneur.com/content/3x2/2000/why-learned-code-how-can-3-months.jpg"
+        },
+        {
+            "name": "Henry McMahan",
+            "role": "Frontend Developer",
+            "email": "henrymcm@iastate.edu",
+            "date": "5/13/2025",
+            "url": "https://assets.entrepreneur.com/content/3x2/2000/why-learned-code-how-can-3-months.jpg"
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.home-background {
+  background: linear-gradient(135deg, #1a2f54 0%, #75164f 100%);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.game-card {
+  background: whitesmoke;
+  min-height: 320px; /* Increase min-height for a taller card */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.game-card-img-col {
+  width: 260px;      /* Increase width for a larger poster */
+  min-width: 200px;
+  max-width: 320px;
+  display: flex;
+  align-items: stretch;
+}
+
+.game-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.game-card-info-col {
+  flex: 1;
+}
+
+@media (max-width: 575.98px) {
+  .game-card {
+    flex-direction: column;
+    align-items: center;
+    min-height: unset;
+  }
+  .game-card-img-col {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 260px; /* Make image tall on mobile */
+  }
+  .game-card-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .game-card-info-col {
+    display: none !important; /* Hide info on mobile */
+  }
+}
+
+.carousel-outer-container {
+  max-width: 800px;     
+  margin: 2rem auto;     /* Center and add vertical margin */
+  border: 2px solid #75164f;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  background: #222;
+}
+
+.carousel-inner, .carousel-item, .c-image {
+  height: 400px;         /* Fixed height for all carousel images */
+  max-height: 400px;
+}
+
+.c-image {
+  object-fit: cover;     /* Ensures images fill the area without distorting aspect ratio */
+  width: 100%;
+  height: 100%;
+  background: #222;      /* Fallback background */
+  border-radius: 0;
+}
+
+@media (max-width: 900px) {
+  .carousel-outer-container {
+    max-width: 98vw;
+  }
+  .carousel-inner, .carousel-item, .c-image {
+    height: 240px;
+    max-height: 240px;
+  }
+}
+
+.fullpage-step {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #1a2f54 0%, #75164f 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main-content-wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.footer {
+  background: whitesmoke;
+  border-top: 2px solid #75164f;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+}
+
+.footer-link:hover {
+  color: #75164f !important;
+  text-decoration: underline;
+}
